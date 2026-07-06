@@ -27,9 +27,13 @@ header{
 nav ul{
     display:flex;
     list-style:none;
-    gap:20px;
+    gap:70px;
 }
-
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
 nav ul li a{
     color:white;
     text-decoration:none;
@@ -43,4 +47,19 @@ nav ul li a{
 nav ul li a:hover{
     background:white;
     color:#2fa093;
+}
+.search-box button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box i{
+    font-size: 22px;
+    color: #fffefe;
+    transition: 0.3s;
+}
+
+.search-box i:hover{
+    color: #47e69c;
 }
