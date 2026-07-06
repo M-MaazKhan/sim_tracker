@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://img.magnific.com/free-vector/social-technology-network-background_1284-3504.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#49a4b4;
+    padding:15px 40px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.logo img{ 
+    aspect-ratio: 1/1;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+    padding:10px 15px;
+    border-radius:25px;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    background:white;
+    color:#2fa093;
+}
