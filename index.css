@@ -1,7 +1,7 @@
 body{
     background-image: url("https://img.magnific.com/free-vector/social-technology-network-background_1284-3504.jpg?semt=ais_hybrid&w=740&q=80");
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 header{
@@ -68,9 +68,7 @@ nav ul li a:hover{
 .search-box i:hover{
     color: #47e69c;
 }
-body{
-    background:#0f172a;
-}
+
 
 /* Section */
 
@@ -454,10 +452,10 @@ body{
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
-
+/* 
 body{
     background:#f5f7fb;
-}
+} */
 
 /* Section */
 
