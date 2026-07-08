@@ -33,643 +33,580 @@
       </nav>
     </header>
     <section class="search-section">
-
-    <div class="search-container">
-
+      <div class="search-container">
         <div class="search-card">
+          <!-- Toggle Buttons -->
 
-            <!-- Toggle Buttons -->
+          <div class="search-toggles">
+            <button class="toggle-btn active">
+              <i class="fas fa-mobile-alt"></i>
+              Mobile No
+            </button>
 
-            <div class="search-toggles">
+            <button class="toggle-btn">
+              <i class="fas fa-id-card"></i>
+              CNIC No
+            </button>
+          </div>
 
-                <button class="toggle-btn active">
-                    <i class="fas fa-mobile-alt"></i>
-                    Mobile No
-                </button>
+          <!-- Search Form -->
 
-                <button class="toggle-btn">
-                    <i class="fas fa-id-card"></i>
-                    CNIC No
-                </button>
+          <form class="search-form" id="search-form">
+            <div class="search-input-wrapper">
+              <i class="fas fa-search search-icon"></i>
 
+              <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="e.g. 03231234567"
+              />
             </div>
 
-            <!-- Search Form -->
+            <button class="search-btn" id="search-btn" type="submit">
+              <i class="fas fa-search"></i>
 
-            <form class="search-form">
+              Search Now
+            </button>
+          </form>
 
-                <div class="search-input-wrapper">
-
-                    <i class="fas fa-search search-icon"></i>
-
-                    <input
-                    type="text"
-                    class="search-input"
-                    placeholder="e.g. 03231234567">
-
-                </div>
-
-                <button class="search-btn">
-
-                    <i class="fas fa-search"></i>
-
-                    Search Now
-
-                </button>
-
-            </form>
-
+          <!-- Search Result -->
+          <div id="search-result"></div>
         </div>
-
-    </div>
-
-</section>
-<section class="app-download-section">
-
-    <div class="app-content">
-
+      </div>
+    </section>
+    <section class="app-download-section">
+      <div class="app-content">
         <div class="icon-box">
-            <i class="fab fa-android"></i>
+          <i class="fab fa-android"></i>
         </div>
 
         <div class="text-content">
+          <span class="badge">
+            <i class="fab fa-android"></i> Android App
+          </span>
 
-            <span class="badge">
-                <i class="fab fa-android"></i> Android App
-            </span>
+          <h2>
+            Download Our Official
+            <span>Android App</span>
+          </h2>
 
-            <h2>
-                Download Our Official
-                <span>Android App</span>
-            </h2>
+          <p>
+            Get instant access to SIM owner details, CNIC tracking, and live
+            network updates directly from your mobile phone. Fast, secure, and
+            completely free.
+          </p>
 
-            <p>
-                Get instant access to SIM owner details, CNIC tracking,
-                and live network updates directly from your mobile phone.
-                Fast, secure, and completely free.
-            </p>
-
-            <a href="#" class="download-btn">
-                <i class="fab fa-google-play"></i>
-                Download Now
-            </a>
-
+          <a href="#" class="download-btn">
+            <i class="fab fa-google-play"></i>
+            Download Now
+          </a>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-<section class="faq-section">
-
-    <div class="faq-container">
-
+    <section class="faq-section">
+      <div class="faq-container">
         <div class="faq-heading">
+          <span class="faq-badge">
+            <i class="fas fa-question-circle"></i>
+            Help Center
+          </span>
 
-            <span class="faq-badge">
-                <i class="fas fa-question-circle"></i>
-                Help Center
-            </span>
+          <h2>Frequently Asked Questions</h2>
 
-            <h2>Frequently Asked Questions</h2>
-
-            <p>
-                Find answers to common questions about SIM ownership,
-                CNIC verification, and privacy.
-            </p>
-
+          <p>
+            Find answers to common questions about SIM ownership, CNIC
+            verification, and privacy.
+          </p>
         </div>
 
         <div class="faq-box">
+          <details>
+            <summary>How do I check SIM owner details?</summary>
+            <p>
+              Enter the mobile number in the search box and click "Search". The
+              system will display available ownership information securely.
+            </p>
+          </details>
 
-            <details>
-                <summary>How do I check SIM owner details?</summary>
-                <p>
-                    Enter the mobile number in the search box and click
-                    "Search". The system will display available ownership
-                    information securely.
-                </p>
-            </details>
+          <details>
+            <summary>Is my personal information secure?</summary>
+            <p>
+              Yes. All searches are encrypted using SSL technology and your
+              information remains completely private.
+            </p>
+          </details>
 
-            <details>
-                <summary>Is my personal information secure?</summary>
-                <p>
-                    Yes. All searches are encrypted using SSL technology
-                    and your information remains completely private.
-                </p>
-            </details>
+          <details>
+            <summary>Is this service free to use?</summary>
+            <p>Yes, basic SIM verification is free for all users.</p>
+          </details>
 
-            <details>
-                <summary>Is this service free to use?</summary>
-                <p>
-                    Yes, basic SIM verification is free for all users.
-                </p>
-            </details>
+          <details>
+            <summary>Can I verify multiple SIM numbers?</summary>
+            <p>
+              Yes. You can perform multiple searches anytime from your browser.
+            </p>
+          </details>
 
-            <details>
-                <summary>Can I verify multiple SIM numbers?</summary>
-                <p>
-                    Yes. You can perform multiple searches anytime from
-                    your browser.
-                </p>
-            </details>
-
-            <details>
-                <summary>Which mobile networks are supported?</summary>
-                <p>
-                    The system supports all major Pakistani telecom
-                    networks.
-                </p>
-            </details>
-
+          <details>
+            <summary>Which mobile networks are supported?</summary>
+            <p>The system supports all major Pakistani telecom networks.</p>
+          </details>
         </div>
-
-    </div>
-
-</section>
-<section class="security-section">
-
-    <div class="security-container">
-
+      </div>
+    </section>
+    <section class="security-section">
+      <div class="security-container">
         <!-- Left Content -->
         <div class="security-content">
+          <span class="security-badge">
+            <i class="fas fa-shield-alt"></i>
+            Secure System
+          </span>
 
-            <span class="security-badge">
-                <i class="fas fa-shield-alt"></i>
-                Secure System
-            </span>
+          <h2>Bank-Grade Security <br />& Privacy</h2>
 
-            <h2>Bank-Grade Security <br>& Privacy</h2>
+          <p>
+            We take your privacy seriously. All information is protected with
+            advanced encryption technology. Your searches remain private and are
+            never shared with third parties.
+          </p>
 
-            <p>
-                We take your privacy seriously. All information is protected
-                with advanced encryption technology. Your searches remain
-                private and are never shared with third parties.
-            </p>
+          <ul class="security-list">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              No Search Logs Retained
+            </li>
 
-            <ul class="security-list">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              256-bit AES Encryption
+            </li>
 
-                <li>
-                    <i class="fas fa-check-circle"></i>
-                    No Search Logs Retained
-                </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Anonymous Verification
+            </li>
 
-                <li>
-                    <i class="fas fa-check-circle"></i>
-                    256-bit AES Encryption
-                </li>
-
-                <li>
-                    <i class="fas fa-check-circle"></i>
-                    Anonymous Verification
-                </li>
-
-                <li>
-                    <i class="fas fa-check-circle"></i>
-                    SSL Secure Connection
-                </li>
-
-            </ul>
-
+            <li>
+              <i class="fas fa-check-circle"></i>
+              SSL Secure Connection
+            </li>
+          </ul>
         </div>
 
         <!-- Right Side -->
 
         <div class="security-image">
+          <div class="shield-box">
+            <i class="fas fa-user-shield"></i>
 
-            <div class="shield-box">
+            <h3>100%</h3>
 
-                <i class="fas fa-user-shield"></i>
-
-                <h3>100%</h3>
-
-                <p>Private & Secure</p>
-
-            </div>
-
+            <p>Private & Secure</p>
+          </div>
         </div>
-
-    </div>
-
-</section>
+      </div>
+    </section>
     <section class="stats-section">
-    <div class="stats-container">
-
+      <div class="stats-container">
         <div class="stats-header">
-            <div class="hero-badge">
-                <i class="fas fa-chart-pie"></i>
-                Updated May 2026
-            </div>
+          <div class="hero-badge">
+            <i class="fas fa-chart-pie"></i>
+            Updated May 2026
+          </div>
 
-            <h2>Pakistan SIM Statistics</h2>
+          <h2>Pakistan SIM Statistics</h2>
 
-            <p>
-                Key insights into mobile networks, PTA enforcement, and digital
-                security in Pakistan.
-            </p>
+          <p>
+            Key insights into mobile networks, PTA enforcement, and digital
+            security in Pakistan.
+          </p>
         </div>
 
         <div class="stats-grid">
-
-            <!-- Stat Card 1 -->
-            <div class="stat-card">
-                <div class="stat-icon green">
-                    <i class="fas fa-broadcast-tower"></i>
-                </div>
-                <div class="stat-number">197M</div>
-                <div class="stat-label">Total Active Connections</div>
+          <!-- Stat Card 1 -->
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <i class="fas fa-broadcast-tower"></i>
             </div>
+            <div class="stat-number">197M</div>
+            <div class="stat-label">Total Active Connections</div>
+          </div>
 
-            <!-- Stat Card 2 -->
-            <div class="stat-card">
-                <div class="stat-icon blue">
-                    <i class="fas fa-fingerprint"></i>
-                </div>
-                <div class="stat-number">193.2M</div>
-                <div class="stat-label">Biometrically Verified</div>
+          <!-- Stat Card 2 -->
+          <div class="stat-card">
+            <div class="stat-icon blue">
+              <i class="fas fa-fingerprint"></i>
             </div>
+            <div class="stat-number">193.2M</div>
+            <div class="stat-label">Biometrically Verified</div>
+          </div>
 
-            <!-- Stat Card 3 -->
-            <div class="stat-card">
-                <div class="stat-icon red">
-                    <i class="fas fa-ban"></i>
-                </div>
-                <div class="stat-number">3.2M</div>
-                <div class="stat-label">Blocked (Jan 2026)</div>
+          <!-- Stat Card 3 -->
+          <div class="stat-card">
+            <div class="stat-icon red">
+              <i class="fas fa-ban"></i>
             </div>
+            <div class="stat-number">3.2M</div>
+            <div class="stat-label">Blocked (Jan 2026)</div>
+          </div>
 
-            <!-- Stat Card 4 -->
-            <div class="stat-card">
-                <div class="stat-icon orange">
-                    <i class="fas fa-user-secret"></i>
-                </div>
-                <div class="stat-number">4.7M</div>
-                <div class="stat-label">Unauthorized SIMs (Est.)</div>
+          <!-- Stat Card 4 -->
+          <div class="stat-card">
+            <div class="stat-icon orange">
+              <i class="fas fa-user-secret"></i>
             </div>
+            <div class="stat-number">4.7M</div>
+            <div class="stat-label">Unauthorized SIMs (Est.)</div>
+          </div>
 
-            <!-- Stat Card 5 -->
-            <div class="stat-card">
-                <div class="stat-icon purple">
-                    <i class="fas fa-shield-virus"></i>
-                </div>
-                <div class="stat-number">1,300+</div>
-                <div class="stat-label">Illegal Sites Blocked</div>
+          <!-- Stat Card 5 -->
+          <div class="stat-card">
+            <div class="stat-icon purple">
+              <i class="fas fa-shield-virus"></i>
             </div>
+            <div class="stat-number">1,300+</div>
+            <div class="stat-label">Illegal Sites Blocked</div>
+          </div>
 
-            <!-- Stat Card 6 -->
-            <div class="stat-card">
-                <div class="stat-icon gray">
-                    <i class="fas fa-sim-card"></i>
-                </div>
-                <div class="stat-number">8</div>
-                <div class="stat-label">
-                    Max SIMs per CNIC
-                    <span>(5 Voice + 3 Data)</span>
-                </div>
+          <!-- Stat Card 6 -->
+          <div class="stat-card">
+            <div class="stat-icon gray">
+              <i class="fas fa-sim-card"></i>
             </div>
+            <div class="stat-number">8</div>
+            <div class="stat-label">
+              Max SIMs per CNIC
+              <span>(5 Voice + 3 Data)</span>
+            </div>
+          </div>
 
-            <!-- Stat Card 7 -->
-            <div class="stat-card">
-                <div class="stat-icon yellow">
-                    <i class="fas fa-gavel"></i>
-                </div>
-                <div class="stat-number">96K+</div>
-                <div class="stat-label">Cybercrime Complaints (2025)</div>
+          <!-- Stat Card 7 -->
+          <div class="stat-card">
+            <div class="stat-icon yellow">
+              <i class="fas fa-gavel"></i>
             </div>
-<div class="stat-card">
-  <div class="stat-icon green" >
-    <i class="fas fa-network-wired"></i>
-  </div>
-  <div class="stat-number">6</div>
-  <div class="stat-label">Active Mobile Networks</div>
-</div>
+            <div class="stat-number">96K+</div>
+            <div class="stat-label">Cybercrime Complaints (2025)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <div class="stat-number">6</div>
+            <div class="stat-label">Active Mobile Networks</div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
     <section class="prefix-section">
-    <div class="prefix-container">
-
+      <div class="prefix-container">
         <div class="prefix-header">
-            <h2>Pakistan Mobile Number Prefix Table 2026</h2>
-            <p>
-                Identify the network operator of any Pakistani mobile number by
-                its first 4 digits.
-            </p>
+          <h2>Pakistan Mobile Number Prefix Table 2026</h2>
+          <p>
+            Identify the network operator of any Pakistani mobile number by its
+            first 4 digits.
+          </p>
         </div>
 
         <div class="table-wrapper">
-            <div class="table-responsive">
-                <table class="prefix-table">
+          <div class="table-responsive">
+            <table class="prefix-table">
+              <thead>
+                <tr>
+                  <th>Network Operator</th>
+                  <th>Mobile Number Prefixes</th>
+                </tr>
+              </thead>
 
-                    <thead>
-                        <tr>
-                            <th>Network Operator</th>
-                            <th>Mobile Number Prefixes</th>
-                        </tr>
-                    </thead>
+              <tbody>
+                <tr>
+                  <td class="jazz">
+                    <i class="fas fa-signal"></i>
+                    Jazz (Mobilink / Warid)
+                  </td>
+                  <td>
+                    0300, 0301, 0302, 0303, 0304, 0305, 0306, 0307, 0308, 0309,
+                    0320, 0321, 0322, 0323, 0324, 0325, 0326
+                  </td>
+                </tr>
 
-                    <tbody>
+                <tr>
+                  <td class="telenor">
+                    <i class="fas fa-signal"></i>
+                    Telenor
+                  </td>
+                  <td>
+                    0340, 0341, 0342, 0343, 0344, 0345, 0346, 0347, 0348, 0349
+                  </td>
+                </tr>
 
-                        <tr>
-                            <td class="jazz">
-                                <i class="fas fa-signal"></i>
-                                Jazz (Mobilink / Warid)
-                            </td>
-                            <td>
-                                0300, 0301, 0302, 0303, 0304, 0305, 0306,
-                                0307, 0308, 0309, 0320, 0321, 0322, 0323,
-                                0324, 0325, 0326
-                            </td>
-                        </tr>
+                <tr>
+                  <td class="zong">
+                    <i class="fas fa-signal"></i>
+                    Zong (China Mobile)
+                  </td>
+                  <td>0310, 0311, 0312, 0313, 0314, 0315, 0316, 0317, 0318</td>
+                </tr>
 
-                        <tr>
-                            <td class="telenor">
-                                <i class="fas fa-signal"></i>
-                                Telenor
-                            </td>
-                            <td>
-                                0340, 0341, 0342, 0343, 0344, 0345,
-                                0346, 0347, 0348, 0349
-                            </td>
-                        </tr>
+                <tr>
+                  <td class="ufone">
+                    <i class="fas fa-signal"></i>
+                    Ufone (PTML)
+                  </td>
+                  <td>0330, 0331, 0332, 0333, 0334, 0335, 0336, 0337</td>
+                </tr>
 
-                        <tr>
-                            <td class="zong">
-                                <i class="fas fa-signal"></i>
-                                Zong (China Mobile)
-                            </td>
-                            <td>
-                                0310, 0311, 0312, 0313, 0314, 0315,
-                                0316, 0317, 0318
-                            </td>
-                        </tr>
+                <tr>
+                  <td class="onic">
+                    <i class="fas fa-signal"></i>
+                    Onic
+                  </td>
+                  <td>0339</td>
+                </tr>
 
-                        <tr>
-                            <td class="ufone">
-                                <i class="fas fa-signal"></i>
-                                Ufone (PTML)
-                            </td>
-                            <td>
-                                0330, 0331, 0332, 0333, 0334,
-                                0335, 0336, 0337
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="onic">
-                                <i class="fas fa-signal"></i>
-                                Onic
-                            </td>
-                            <td>0339</td>
-                        </tr>
-
-                        <tr>
-                            <td class="scom">
-                                <i class="fas fa-signal"></i>
-                                SCOM (AJK & GB)
-                            </td>
-                            <td>0355</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
+                <tr>
+                  <td class="scom">
+                    <i class="fas fa-signal"></i>
+                    SCOM (AJK & GB)
+                  </td>
+                  <td>0355</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-
-    </div>
-</section>
+      </div>
+    </section>
     <section class="testimonials-section">
-    <div class="testimonials-container">
-
+      <div class="testimonials-container">
         <div class="section-title">
-            <h2>Trusted by Thousands</h2>
-            <p>
-                See what users across Pakistan are saying about our SIM
-                tracking service.
-            </p>
+          <h2>Trusted by Thousands</h2>
+          <p>
+            See what users across Pakistan are saying about our SIM tracking
+            service.
+          </p>
         </div>
 
         <div class="testimonial-grid">
-
-            <!-- Review 1 -->
-            <div class="testimonial-card">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-
-                <p class="review">
-                    "I was getting strange calls and used this tracker to identify
-                    the network and name. It worked instantly! Best free tool
-                    available online right now."
-                </p>
-
-                <div class="user">
-                    <div class="avatar">AM</div>
-                    <div>
-                        <h4>Hadiqa</h4>
-                        <span>Islamabad</span>
-                    </div>
-                </div>
+          <!-- Review 1 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
 
-            <!-- Review 2 -->
-            <div class="testimonial-card">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+            <p class="review">
+              "I was getting strange calls and used this tracker to identify the
+              network and name. It worked instantly! Best free tool available
+              online right now."
+            </p>
 
-                <p class="review">
-                    "Checked my CNIC to see how many SIMs were registered under
-                    my name. The data was 100% accurate and helped me block an
-                    unauthorized number."
-                </p>
+            <div class="user">
+              <div class="avatar">AM</div>
+              <div>
+                <h4>Hadiqa</h4>
+                <span>Islamabad</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="user">
-                    <div class="avatar">SZ</div>
-                    <div>
-                        <h4>Maaz Marwat</h4>
-                        <span>Islamabad</span>
-                    </div>
-                </div>
+          <!-- Review 2 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
 
-            <!-- Review 3 -->
-            <div class="testimonial-card">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
+            <p class="review">
+              "Checked my CNIC to see how many SIMs were registered under my
+              name. The data was 100% accurate and helped me block an
+              unauthorized number."
+            </p>
 
-                <p class="review">
-                    "Very fast and completely free. I love the new interface,
-                    it looks so premium and works flawlessly on my mobile phone.
-                    Highly recommended!"
-                </p>
+            <div class="user">
+              <div class="avatar">SZ</div>
+              <div>
+                <h4>Maaz Marwat</h4>
+                <span>Islamabad</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="user">
-                    <div class="avatar">UK</div>
-                    <div>
-                        <h4>Usman Sarwar</h4>
-                        <span>Islamabad</span>
-                    </div>
-                </div>
+          <!-- Review 3 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
             </div>
 
+            <p class="review">
+              "Very fast and completely free. I love the new interface, it looks
+              so premium and works flawlessly on my mobile phone. Highly
+              recommended!"
+            </p>
+
+            <div class="user">
+              <div class="avatar">UK</div>
+              <div>
+                <h4>Usman Sarwar</h4>
+                <span>Islamabad</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
     <section class="seo-section">
-    <div class="seo-container">
+      <div class="seo-container">
         <h2 class="seo-heading">
-        Understanding SIM Ownership & The Role of PTA
+          Understanding SIM Ownership & The Role of PTA
         </h2>
 
         <p class="seo-text">
-            The Pakistan Telecommunication Authority (PTA) is the primary
-            regulatory body responsible for managing and overseeing the
-            establishment, operation, and maintenance of telecommunications
-            systems in Pakistan. One of its most critical mandates is ensuring
-            that every active SIM card in the country is correctly registered
-            to a verified citizen.
+          The Pakistan Telecommunication Authority (PTA) is the primary
+          regulatory body responsible for managing and overseeing the
+          establishment, operation, and maintenance of telecommunications
+          systems in Pakistan. One of its most critical mandates is ensuring
+          that every active SIM card in the country is correctly registered to a
+          verified citizen.
         </p>
 
         <p class="seo-text">
-            In the past, the lack of a centralized and strict SIM registration
-            system led to the widespread use of unregistered and untraceable
-            mobile numbers. These numbers were frequently misused in fraudulent
-            activities, spamming, and even severe criminal enterprises. To
-            combat this, the PTA introduced a robust regulatory framework that
-            limits the number of SIMs an individual can own and mandates strict
-            identification protocols.
+          In the past, the lack of a centralized and strict SIM registration
+          system led to the widespread use of unregistered and untraceable
+          mobile numbers. These numbers were frequently misused in fraudulent
+          activities, spamming, and even severe criminal enterprises. To combat
+          this, the PTA introduced a robust regulatory framework that limits the
+          number of SIMs an individual can own and mandates strict
+          identification protocols.
         </p>
 
         <p class="seo-text">
-            Today, owning a SIM card in Pakistan means you are legally
-            responsible for any communication that originates from that number.
-            This makes it absolutely vital for every citizen to occasionally
-            check their SIM owner details and ensure no unauthorized connections
-            are active under their Computerized National Identity Card (CNIC).
-            Platforms like ours bridge the gap between complex regulatory
-            databases and the common user, providing a simplified gateway to
-            this crucial public data.
+          Today, owning a SIM card in Pakistan means you are legally responsible
+          for any communication that originates from that number. This makes it
+          absolutely vital for every citizen to occasionally check their SIM
+          owner details and ensure no unauthorized connections are active under
+          their Computerized National Identity Card (CNIC). Platforms like ours
+          bridge the gap between complex regulatory databases and the common
+          user, providing a simplified gateway to this crucial public data.
         </p>
-    </div>
-</section>
-<section class="seo-section-2">
-    <div class="seo-container">
-
+      </div>
+    </section>
+    <section class="seo-section-2">
+      <div class="seo-container">
         <h2 class="seo-heading">
-            The Importance of the Biometric Verification System (BVS)
+          The Importance of the Biometric Verification System (BVS)
         </h2>
 
         <div class="seo-highlight">
-            <p class="highlight-text">
-                The Biometric Verification System (BVS) was a watershed moment
-                in Pakistan's telecom history. Implemented rigorously following
-                national security directives, it completely eliminated the concept
-                of "anonymous" mobile connections.
-            </p>
+          <p class="highlight-text">
+            The Biometric Verification System (BVS) was a watershed moment in
+            Pakistan's telecom history. Implemented rigorously following
+            national security directives, it completely eliminated the concept
+            of "anonymous" mobile connections.
+          </p>
         </div>
 
         <p class="seo-text">
-            Before BVS, one could purchase a SIM card simply by providing a
-            photocopy of a CNIC. This loophole was heavily exploited. With the
-            introduction of BVS, every telecom operator—whether it's Jazz,
-            Telenor, Zong, or Ufone—must physically verify the thumbprint of the
-            purchaser against the live database maintained by NADRA (National
-            Database and Registration Authority).
+          Before BVS, one could purchase a SIM card simply by providing a
+          photocopy of a CNIC. This loophole was heavily exploited. With the
+          introduction of BVS, every telecom operator—whether it's Jazz,
+          Telenor, Zong, or Ufone—must physically verify the thumbprint of the
+          purchaser against the live database maintained by NADRA (National
+          Database and Registration Authority).
         </p>
 
         <p class="seo-text">
-            This system ensures that SIM owner details are 100% accurate. When
-            you use our tracker to check a number, the name and CNIC you receive
-            are backed by this biometric layer of security. However, despite
-            these strict measures, scammers sometimes use manipulation techniques
-            (like taking thumbprints under false pretenses) to register illegal
-            SIMs. This is why conducting a regular CNIC SIM check is highly
-            recommended to protect your digital identity.
+          This system ensures that SIM owner details are 100% accurate. When you
+          use our tracker to check a number, the name and CNIC you receive are
+          backed by this biometric layer of security. However, despite these
+          strict measures, scammers sometimes use manipulation techniques (like
+          taking thumbprints under false pretenses) to register illegal SIMs.
+          This is why conducting a regular CNIC SIM check is highly recommended
+          to protect your digital identity.
         </p>
-
-    </div>
-</section>
-<section class="seo-section-12">
-    <div class="seo-container">
-
+      </div>
+    </section>
+    <section class="seo-section-12">
+      <div class="seo-container">
         <h2 class="seo-heading">
-         Essential USSD Codes: Check Balance, SIM Number, and Data
+          Essential USSD Codes: Check Balance, SIM Number, and Data
         </h2>
 
         <p class="seo-text">
-            If you have just purchased a new SIM or found an old one, knowing
-            the right USSD (Unstructured Supplementary Service Data) codes is
-            crucial. These quick dials allow you to check your mobile number,
-            current balance, and remaining internet MBs instantly.
+          If you have just purchased a new SIM or found an old one, knowing the
+          right USSD (Unstructured Supplementary Service Data) codes is crucial.
+          These quick dials allow you to check your mobile number, current
+          balance, and remaining internet MBs instantly.
         </p>
 
         <div class="ussd-grid">
+          <div class="ussd-card">
+            <h4 class="jazz">Jazz</h4>
+            <p>
+              Check Number: <strong>*99#</strong><br />
+              Check Balance: <strong>*111#</strong>
+            </p>
+          </div>
 
-            <div class="ussd-card">
-                <h4 class="jazz">Jazz</h4>
-                <p>
-                    Check Number: <strong>*99#</strong><br>
-                    Check Balance: <strong>*111#</strong>
-                </p>
-            </div>
+          <div class="ussd-card">
+            <h4 class="telenor">Telenor</h4>
+            <p>
+              Check Number: <strong>Send 'A' to 7421</strong><br />
+              Check Balance: <strong>*444#</strong>
+            </p>
+          </div>
 
-            <div class="ussd-card">
-                <h4 class="telenor">Telenor</h4>
-                <p>
-                    Check Number: <strong>Send 'A' to 7421</strong><br>
-                    Check Balance: <strong>*444#</strong>
-                </p>
-            </div>
+          <div class="ussd-card">
+            <h4 class="zong">Zong</h4>
+            <p>
+              Check Number: <strong>*8#</strong><br />
+              Check Balance: <strong>*222#</strong>
+            </p>
+          </div>
 
-            <div class="ussd-card">
-                <h4 class="zong">Zong</h4>
-                <p>
-                    Check Number: <strong>*8#</strong><br>
-                    Check Balance: <strong>*222#</strong>
-                </p>
-            </div>
-
-            <div class="ussd-card">
-                <h4 class="ufone">Ufone</h4>
-                <p>
-                    Check Number: <strong>*780*3#</strong><br>
-                    Check Balance: <strong>*124#</strong>
-                </p>
-            </div>
-
+          <div class="ussd-card">
+            <h4 class="ufone">Ufone</h4>
+            <p>
+              Check Number: <strong>*780*3#</strong><br />
+              Check Balance: <strong>*124#</strong>
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-bottom" style="border-top: none; padding-top: 0">
+          <p>
+            <i class="far fa-copyright"></i>
+            2026 Sim Owners Detail. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
-    </div>
-</section>
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-bottom" style="border-top: none; padding-top: 0;">
-      <p>
-        <i class="far fa-copyright"></i>
-        2026 Sim Owners Detail. All Rights Reserved.
-      </p>
-    </div>
-  </div>
-</footer>
-
-<a href="https://wa.me/923714004910?text=Hi%20i%20need%20help" class="floating-whatsapp" target="_blank" onclick="trackWhatsappClick(event, this.href)">
-  <i class="fab fa-whatsapp"></i>
-</a>
-    <script src="index.js"></script>    
+    <a
+      href="https://wa.me/923714004910?text=Hi%20i%20need%20help"
+      class="floating-whatsapp"
+      target="_blank"
+      onclick="trackWhatsappClick(event, this.href)"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="index.js"></script>
   </body>
 </html>
