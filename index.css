@@ -1,6 +1,6 @@
 body{
     background-image: url("https://img.magnific.com/free-vector/social-technology-network-background_1284-3504.jpg?semt=ais_hybrid&w=740&q=80");
-    /* background-size: cover; */
+    background-size:contain;
     /* background-position: center; */
     background-repeat: no-repeat;
 }
@@ -70,109 +70,105 @@ nav ul li a:hover{
 }
 
 
-/* Section */
+/* ===============================
+   APP DOWNLOAD SECTION
+================================== */
 
 .app-download-section{
-    padding:70px 20px;
-    background:linear-gradient(135deg,#0f172a,#1e293b);
+    padding:60px 20px;
+    background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);
+    color:#fff;
+    text-align:center;
+    border-bottom:1px solid #334155;
 }
 
-/* Container */
-
-.app-content{
-    max-width:1100px;
+.app-download-content{
+    max-width:800px;
     margin:auto;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:50px;
-    flex-wrap:wrap;
 }
 
-/* Android Icon */
-
-.icon-box{
-    flex:1;
-    display:flex;
-    justify-content:center;
-}
-
-.icon-box i{
-    font-size:180px;
-    color:#9be53d;
-    background:rgba(164,198,57,.08);
-    width:280px;
-    height:280px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:50%;
-    border:2px solid rgba(164,198,57,.25);
-    box-shadow:0 0 40px rgba(164,198,57,.25);
-}
-
-/* Text */
-
-.text-content{
-    flex:1;
-}
-
-.badge{
-    display:inline-block;
-    padding:10px 20px;
-    border:1px solid #7ac943;
-    color:#7ac943;
-    border-radius:30px;
-    font-weight:bold;
+.android-icon{
+    font-size:4rem;
+    color:#a4c639;
     margin-bottom:20px;
+    filter:drop-shadow(0 0 10px rgba(164,198,57,.4));
 }
 
-.badge i{
-    margin-right:8px;
+.app-download-content h2{
+    font-size:2.5rem;
+    font-weight:800;
+    margin-bottom:15px;
+    color:#fff;
 }
 
-.text-content h2{
-    font-size:55px;
-    color:white;
-    line-height:1.2;
-    margin-bottom:20px;
-}
-
-.text-content h2 span{
-    color:#8bd63d;
-}
-
-.text-content p{
-    color:#b6c2d2;
-    font-size:20px;
-    line-height:1.8;
+.app-download-content p{
+    font-size:1.1rem;
+    color:#94a3b8;
+    line-height:1.6;
     margin-bottom:35px;
+    padding:0 20px;
 }
 
-/* Button */
+/* Google Play Button */
 
-.download-btn{
+.playstore-btn{
     display:inline-flex;
     align-items:center;
-    gap:12px;
-    text-decoration:none;
-    background:white;
-    color:#111827;
-    padding:16px 35px;
+    gap:15px;
+    background:#fff;
+    color:#0f172a;
+    padding:12px 30px;
     border-radius:50px;
-    font-size:18px;
-    font-weight:bold;
+    text-decoration:none;
+    font-weight:700;
     transition:.3s;
+    box-shadow:0 6px 18px rgba(0,0,0,.2);
 }
 
-.download-btn:hover{
-    transform:translateY(-5px);
-    box-shadow:0 10px 25px rgba(122,201,67,.35);
+.playstore-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
 }
 
-.download-btn i{
-    color:#34a853;
-    font-size:22px;
+.play-icon{
+    font-size:1.8rem;
+    color:#000;
+}
+
+.play-text{
+    text-align:left;
+    line-height:1.1;
+}
+
+.small-text{
+    font-size:.75rem;
+    font-weight:600;
+    color:#475569;
+    text-transform:uppercase;
+}
+
+.big-text{
+    font-size:1.2rem;
+    color:#111827;
+    font-weight:700;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .app-download-content h2{
+        font-size:2rem;
+    }
+
+    .playstore-btn{
+        padding:12px 20px;
+    }
+
+    .big-text{
+        font-size:1rem;
+    }
+
 }
 
 /* Responsive */
@@ -339,7 +335,7 @@ nav ul li a:hover{
 /* FAQ Section */
 
 .faq-section{
-    background:#26cf64;
+    background:#fcfffd;
     padding:80px 20px;
 }
 
@@ -358,7 +354,7 @@ nav ul li a:hover{
     align-items:center;
     gap:10px;
     background:#dcfce7;
-    color:#16a34a;
+    color:#a0edbc;
     padding:10px 22px;
     border-radius:30px;
     font-weight:600;
@@ -366,7 +362,7 @@ nav ul li a:hover{
 }
 
 .faq-heading h2{
-    font-size:46px;
+    font-size:46px;     
     color:#0f172a;
     margin-bottom:15px;
 }
@@ -380,7 +376,7 @@ nav ul li a:hover{
 
 .faq-box details{
 
-    background:#fff;
+    background:#c4edd7;
     border-radius:15px;
     margin-bottom:18px;
     border:1px solid #e2e8f0;
@@ -460,15 +456,19 @@ body{
 /* Section */
 
 .search-section{
-
-    padding:80px 20px;
+    display:flex;
+    /* justify-content:flex-end; */
+    align-items:center;
+    min-height: 100vh;
+     padding-left:100px;
+    padding-bottom: 300px; 
 
 }
 
 .search-container{
-
-    max-width:800px;
-    margin:auto;
+width: 900px;
+max-width: 90%;
+margin:auto;
 
 }
 
@@ -477,10 +477,9 @@ body{
 .search-card{
 
     background:#fff;
-    padding:35px;
+    padding:77px;
     border-radius:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
-
 }
 
 /* Toggle */
@@ -505,7 +504,7 @@ body{
 
     border-radius:10px;
 
-    font-size:18px;
+    font-size:15px;
 
     cursor:pointer;
 
@@ -1101,6 +1100,41 @@ body{
 .yellow {
     background: #ffedd5;
     color: #e11d48;
+}
+
+.footer{
+    background: #0b1620;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 15px;
+}
+
+.footer-bottom p{
+    margin: 0;
+    font-size: 15px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+}
+
+.footer-bottom i{
+    color: #14d46f;
+    margin-right: 5px;
+}
+
+.footer-bottom strong{
+    color: #14d46f;
+    font-weight: 600;
 }
 .floating-whatsapp {
     position: fixed;
