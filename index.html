@@ -51,23 +51,27 @@
 
           <!-- Search Form -->
 
-          <form class="search-form">
+          <form class="search-form" id="search-form">
             <div class="search-input-wrapper">
               <i class="fas fa-search search-icon"></i>
 
               <input
                 type="text"
+                id="search-input"
                 class="search-input"
                 placeholder="e.g. 03231234567"
               />
             </div>
 
-            <button class="search-btn">
+            <button class="search-btn" id="search-btn" type="submit">
               <i class="fas fa-search"></i>
 
               Search Now
             </button>
           </form>
+
+          <!-- Search Result -->
+          <div id="search-result"></div>
         </div>
       </div>
     </section>
