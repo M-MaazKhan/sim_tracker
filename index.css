@@ -81,7 +81,158 @@ nav ul li a:hover {
   color: #47e69c;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+/* Section */
+
+.why-choose{
+    width:100%;
+    padding:80px 8%;
+}
+
+/* Heading */
+
+.heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.heading h2{
+    font-size:52px;
+    color:#000000;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.heading p{
+    font-size:22px;
+    color:#666;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* Cards */
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+    background:#fff;
+    border-radius:22px;
+    padding:45px 30px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.icon{
+    width:90px;
+    height:90px;
+    border-radius:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 30px;
+    font-size:40px;
+}
+
+/* Icon Colors */
+
+.blue{
+    background:#dceeff;
+    color:#0b84d8;
+}
+
+.green{
+    background:#dcffe6;
+    color:#16a34a;
+}
+
+.red{
+    background:#ffe3e3;
+    color:#e03131;
+}
+
+.purple{
+    background:#efe2ff;
+    color:#8b3fe3;
+}
+
+.card h3{
+    font-size:34px;
+    color:#1f2937;
+    margin-bottom:20px;
+}
+
+.card p{
+    color:#6b7280;
+    line-height:1.8;
+    font-size:19px;
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+    .heading h2{
+        font-size:42px;
+    }
+
+    .heading p{
+        font-size:20px;
+    }
+
+    .card{
+        width:45%;
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .why-choose{
+        padding:60px 20px;
+    }
+
+    .heading h2{
+        font-size:32px;
+    }
+
+    .heading p{
+        font-size:17px;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .card h3{
+        font-size:28px;
+    }
+
+    .card p{
+        font-size:17px;
+    }
+
+}
 /* ===============================
    APP DOWNLOAD SECTION
 ================================== */
