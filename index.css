@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://img.magnific.com/free-vector/social-technology-network-background_1284-3504.jpg?semt=ais_hybrid&w=740&q=80");
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFJvzd2DZ29AR0WBCzcSHHcKiE3RVCl_bVcCJlCihCqw&s=1024);
     background-size:contain;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@ nav ul li a:hover {
 .search-box i:hover {
   color: #47e69c;
 }
+
 
 /* ===============================
    APP DOWNLOAD SECTION
@@ -1514,7 +1515,7 @@ margin:auto;
 .about-header{
     width: 100%;
     padding: 120px 20px 80px;
-    background:#25D366;
+    background:#0b360e;
     text-align: center;
     color: #ffffff;
 }
@@ -1906,4 +1907,283 @@ margin:auto;
   color: #4ade80;
   font-size: 18px;
   flex-shrink: 0;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+.blog-section{
+    width:90%;
+    max-width:1400px;
+    margin:80px auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h1{
+    font-size:60px;
+    font-weight:800;
+    color:#15233b;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    font-size:28px;
+    color:#6b7280;
+}
+
+/* Blog Container */
+
+.blog-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(370px,1fr));
+    gap:35px;
+}
+
+/* Card */
+
+.blog-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.blog-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.blog-image{
+    width:100%;
+    height:320px;
+    overflow:hidden;
+}
+
+.blog-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.blog-card:hover img{
+    transform:scale(1.08);
+}
+
+/* Content */
+
+.blog-content{
+    padding:28px;
+}
+
+.blog-date{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    color:#10b981;
+    font-size:22px;
+    font-weight:600;
+}
+
+.blog-date i{
+    font-size:20px;
+}
+
+.blog-content h2{
+    font-size:25px;
+    color:#15233b;
+    line-height:1.45;
+    margin:18px 0;
+    font-weight:700;
+}
+
+.blog-content p{
+    font-size:18px;
+    color:#5b6472;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.read-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#10b981;
+    color:#fff;
+    padding:13px 28px;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.read-btn:hover{
+    background:#0b360e;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .section-title h1{
+        font-size:48px;
+    }
+
+    .section-title p{
+        font-size:22px;
+    }
+
+    .blog-image{
+        height:280px;
+    }
+}
+
+@media(max-width:768px){
+
+    .blog-section{
+        width:95%;
+        margin:60px auto;
+    }
+
+    .section-title h1{
+        font-size:40px;
+    }
+
+    .section-title p{
+        font-size:18px;
+    }
+
+    .blog-content h2{
+        font-size:22px;
+    }
+
+    .blog-content p{
+        font-size:16px;
+    }
+
+    .blog-date{
+        font-size:18px;
+    }
+
+    .blog-image{
+        height:240px;
+    }
+}
+
+@media(max-width:480px){
+
+    .blog-container{
+        grid-template-columns:1fr;
+    }
+
+    .section-title h1{
+        font-size:34px;
+    }
+
+    .blog-image{
+        height:220px;
+    }
+
+    .blog-content{
+        padding:22px;
+    }
+
+    .read-btn{
+        width:100%;
+        text-align:center;
+    }
+}
+body {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* About Section */
+.about {
+    width: 100%;
+    background: #f8f9fa;
+    padding: 80px 10%;
+}
+
+.about-details {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-details h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.about-details h1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 35px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.about-details p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about {
+        padding: 60px 25px;
+    }
+
+    .about-details h1 {
+        font-size: 1.7rem;
+    }
+
+    .about-details p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 40px 15px;
+    }
+
+    .about-details h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-details p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
 }
